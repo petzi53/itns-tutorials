@@ -1,0 +1,9 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+*chapter.html
+*chapter_files/
+rsconnect/
+
