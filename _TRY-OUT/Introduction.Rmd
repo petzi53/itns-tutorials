@@ -1,0 +1,93 @@
+---
+title: "ITNS Chapter 00"
+author: "Peter Baumgartner"
+date: "`r Sys.Date()`"
+output: 
+    learnr::tutorial:
+        progressive: true
+        allow_skip: true
+        theme: cerulean
+        css: "css/style.css"
+runtime: shiny_prerendered
+---
+
+
+```{r setup, include=FALSE}
+library(learnr)
+# tutorial_options(exercise.checker = checkr::check_for_learnr)
+knitr::opts_chunk$set(
+        message = T,
+        error = T,
+        warning = T,
+        comment = '##',
+        highlight = T,
+        prompt = F,
+        echo = F
+        )
+learnr::initialize_tutorial()
+```
+
+
+# About this demo
+
+
+
+## Info
+
+**Bootstrap**
+
+::: {.infobox .alert-info role="alert"}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+**Home Style**
+
+::: {.infobox}
+
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+
+:::
+
+## Success
+
+**Bootstrap**
+
+::: {.successbox .alert-success role="alert"}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+**Home Style**
+
+::: {.successbox}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+## Warning
+
+**Bootstrap**
+
+::: {.warningbox .alert-warning role="alert"}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+**Home Style**
+
+::: {.warningbox}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+
+
+## Danger
+
+**Bootstrap**
+
+::: {.dangerbox .alert-danger role="alert"}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::
+
+**Home Style**
+
+::: {.dangerbox}
+<strong>Info:</strong> In *ITNS* there are many [occasion](https://getbootstrap.com/docs/4.6/utilities/colors/) where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+:::

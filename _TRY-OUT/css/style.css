@@ -1,0 +1,66 @@
+
+/*   background-image: url("../images/caution.png"); */
+
+:root {
+  --primary:        #027BFF;
+  --secondary:      #6C757D;
+  --success-bg:     #dff0d8;
+  --success-fg:     #468847;
+  --danger:         #DC3545;
+  --danger-bg:      #f2dede;
+  --danger-fg:      #b94a48;
+  --warning-bg:     #fcf8e3;
+  --warning-fg:     #d1b37c;
+  --info:           #25A2B8;
+  --info-bg:        #D9EDF7;
+  --info-fg:        #317EAC;
+}
+
+.successbox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border: 2px solid var(--success-fg);
+  border-radius: 10px;
+  background: var(--success-bg) 5px center/3em no-repeat;
+  background-image: url("../images/icons/success.png");
+  background-repeat: no-repeat;
+}
+
+.infobox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border: 2px solid var(--info-fg);
+  border-radius: 10px;
+  background: var(--info-bg) 5px center/3em no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("../images/icons/info.png");
+}
+
+.warningbox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border: 2px solid var(--warning-fg);
+  border-radius: 10px;
+  background: var(--warning-bg) 5px center/3em no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("../images/icons/warning.png");
+}
+
+.dangerbox {
+  padding: 1em 1em 1em 4em;
+  margin-bottom: 10px;
+  border: 2px solid var(--danger-fg);
+  border-radius: 10px;
+  background: var(--danger-bg) 5px center/3em no-repeat;
+  background-repeat: no-repeat;
+  background-image: url("../images/icons/danger.png");
+}
+
+
+.right {
+    float: right;
+    width: 25%;
+}
+
+
+.
