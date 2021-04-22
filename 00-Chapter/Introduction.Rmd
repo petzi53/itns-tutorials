@@ -1,5 +1,5 @@
 ---
-title: "ITNS Chapter 00"
+title: "ITNS Chapter 00: Preface"
 author: "Peter Baumgartner"
 date: "`r Sys.Date()`"
 output: 
