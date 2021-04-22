@@ -23,7 +23,6 @@ demo_data <- pen_laptop2
 
 ## Supportive Pedagogy
 
-
 Under this heading, you will find in the book (p.XX) explanations of the different formatting items and their purpose. This website has other possibilities; therefore, we need to present the equivalents we have chosen.
 
 ### Take-home messages
@@ -34,13 +33,13 @@ From a technical perspective, we will offer the H5P content type [Summary](https
 
 ### Pause, reflect, and discuss
 
-Educational research shows that elaborating on learning material is an effective learning technique.  The book encourages on regular intervals critical thinking with questions suitable for reflection and discussion.
+Educational research shows that elaborating on learning material is an effective learning technique. The book encourages on regular intervals critical thinking with questions suitable for reflection and discussion.
 
-With these tutorials, we offer [Cornell Notes](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/) as a tool to process and elaborate conveyed information. It supports learning with a three-part structure of note-taking: 
+With these tutorials, we offer [Cornell Notes](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/) as a tool to process and elaborate conveyed information. It supports learning with a three-part structure of note-taking:
 
-1. Take notes from a lecture, book, audio, or video. But not in a mechanical descriptive way, but decide what is essential and choose your own wording.
-2. After you wrote this excerpt, look for cues and key points. Formulate problems, generate questions, and write them into another text field.
-3. Finally, in the third field, write down your learnings as a summary and try a conclusion. 
+1.  Take notes from a lecture, book, audio, or video. But not in a mechanical descriptive way, but decide what is essential and choose your own wording.
+2.  After you wrote this excerpt, look for cues and key points. Formulate problems, generate questions, and write them into another text field.
+3.  Finally, in the third field, write down your learnings as a summary and try a conclusion.
 
 Again we provide this learning tool via an H5P content type. There is no help file using it because this interactive exercise type is new and not yet officially released (April 2021). We have therefore provided an example and help page.
 
@@ -50,40 +49,41 @@ The book has vital terms set off from the text and defined in the glossary at th
 
 You will find [Flash Cards exercises](https://routledgetextbooks.com/textbooks/9781138825529/student.php) at the book's website for the terms and expressions used in the book. In these tutorial files, we add three other types of activities:
 
-+ **Glossary** realized with [H5P Accordion](https://h5p.org/accordion).
-+ **Drag Text** realized with [H5P Drag the Words](https://h5p.org/drag-the-words).
-+ **Fill Gap** realized with [H5P Fill in the Blanks](https://h5p.org/fill-in-the-blanks).
+-   **Glossary** realized with [H5P Accordion](https://h5p.org/accordion).
+-   **Drag Text** realized with [H5P Drag the Words](https://h5p.org/drag-the-words).
+-   **Fill Gap** realized with [H5P Fill in the Blanks](https://h5p.org/fill-in-the-blanks).
 
 These three types of exercises represent different levels of difficulty: Read, remember, recall.
 
-Additionally, we will experiment with [H5P Crossword](https://www.olivertacke.de/labs/2020/11/19/some-things-take-time-h5p-crossword/)^[This content type is new and yet not released officially.] and [H5P Memory Game](https://h5p.org/memory-game).
+Additionally, we will experiment with [H5P Crossword](https://www.olivertacke.de/labs/2020/11/19/some-things-take-time-h5p-crossword/)[^1] and [H5P Memory Game](https://h5p.org/memory-game).
+
+[^1]: This content type is new and yet not released officially.
 
 ### Exercises
 
-We have converted the book's review questions with the H5P Question Set into a collection of interactive exercises. Corresponding to the subject, we use appropriate question formats like Single and Multiple Choice, True and False Questions, and other – partly already mentioned – activity types.
+We have converted the book's review questions with the H5P Question Set into a collection of interactive exercises. Corresponding to the subject, we use appropriate question formats like Single and Multiple Choice, True and False Questions, and other -- partly already mentioned -- activity types.
 
-In the book, there are two types of exercises: In-Chapter-Exercises and End-of-Chapter-Exercises.
+In the book, there are two types of exercises: In-text-exercises and end-of-chapter-exercises.
 
-#### In-Chapter-Exercises 
+#### In-Text-Exercises
 
-The book uses primarily ESCI, a specially prepared Exploratory Software for Confidence Intervals. We complement this important educational device with practical tutorials to grasp the essentials of [R](https://www.r-project.org/), "a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and macOS." 
+The book uses primarily ESCI, a specially prepared Exploratory Software for Confidence Intervals. We complement this important educational device with practical tutorials to grasp the essentials of [R](https://www.r-project.org/), "a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and macOS."
 
-Learning R to do statistics and data science is a trendy and valuable professional skill in the job market. We wrote this accompanying book to ITNS entirely in R, which shows its solid and powerful ecosystem. The In-Chapter-Exercises use `learnr` and `gradethis`, two R packages specialized tutoring data science and the R Language. So it is a kind of learning R through R.
+Learning R to do statistics and data science is a trendy and valuable professional skill in the job market. We wrote this accompanying book to ITNS entirely in R, which shows its solid and powerful ecosystem. The in-text-exercises use `learnr` and `gradethis`, two R packages specialized tutoring data science and the R Language. So it is a kind of learning R through R.
 
 To give you a first impression of the tutorial environment, experiment with `learnr`, the R tutorial software we war using. Head over to the section [Sandbox Experiments].
 
 #### End-of-Chapter-Exercises
 
-We will explain with this guided tutorial all In-Chapter-Exercises and also give some guided exercises to try for yourself. So you will learn the basic structure of R and how to use it.
+We will explain with this guided tutorial all in-text-exercises and also give some guided exercises to try for yourself. So you will learn the basic structure of R and how to use it.
 
-The End-of-Chapter-Exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and datasets. 
+The end-of-chapter-exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and datasets.
 
 We recommend urgently that you should try to find the solution on your own. Only when you are exhausted and could not solve the problem, then consult our solution. Have a look at it, try to understand it, close our demonstration and try it yourself in your R installation.
 
 ### Formatting
 
 For outline paragraphs that deserve special attention, we are using colored boxes with icons.
-
 
 ::: {.infobox}
 <strong>Info:</strong> We use infoboxes as visual markers highlighting key issues and points. It makes it easier for readers to gain an overview and find critical points when reviewing for exams.
@@ -93,7 +93,6 @@ For outline paragraphs that deserve special attention, we are using colored boxe
 <strong>Warning:</strong> We use warning boxes whenever we explain important cautions that students always need to keep in mind, including troubles with the meaning of "significance" and what p values can and cannot tell us.
 :::
 
-
 ::: {.stopbox}
 <strong>Stop:</strong> We use stop boxes to highlight common pitfalls or things to watch out for. We hope these will help students avoid making such errors.
 :::
@@ -101,6 +100,32 @@ For outline paragraphs that deserve special attention, we are using colored boxe
 #### Typography
 
 Package names are in bold text (e.g., **rmarkdown**), and inline code and filenames are formatted in a typewriter font (e.g., `knitr::knit('foo.Rmd'))`. Function names are followed by parentheses (e.g., `bookdown::render_book())`. The double-colon operator :: means accessing an object from a package.
+
+## Additional Resources
+
+On the [book's website](https://routledgetextbooks.com/textbooks/9781138825529/), you will find [resources for students](https://routledgetextbooks.com/textbooks/9781138825529/student.php). It includes:
+
+-   Flashcards exercises
+
+-   Videos
+
+-   Data sets for in-text-exercises
+
+-   Data sets for end-of-chapter-exercises
+
+-   ESCI download
+
+-   Software Guide
+
+You are welcome to use everything, but except for the flashcards exercises and the ESCI software, this tutorial will use these resources in a particular way:
+
+-   **Video**: We have added to the videos interactivity: Questions, Quizzes, etc.
+
+-   **Data sets**: They are included in the R package `itns`. In the tutorial, you will learn how to get this package and use the data files.
+
+-   **Software Guide**: Our tutorial will explain how to install and use the software.
+
+So for videos, data sets, and software is no need to worry. We will cover how to get and use these resources at the appropriate places in the tutorial.
 
 ## Sandbox Experiments
 
@@ -111,7 +136,6 @@ Package names are in bold text (e.g., **rmarkdown**), and inline code and filena
 1 + 1
 ```
 
-
 ### Demo: Use R functions for statistical calculation
 
 ```{r demo2, exercise=TRUE}
@@ -119,7 +143,6 @@ Package names are in bold text (e.g., **rmarkdown**), and inline code and filena
 ## see also 'hint' to try other functions
 mean(c(12.1, 6.5, 8.1, 7.6, 12.2, 10.8, 1.0, 2.9, 14.4, 8.4))
 ```
-
 
 ```{r demo2-hint}
 ## try instead of mean: median, min, max
@@ -129,7 +152,6 @@ median(c(12.1, 6.5, 8.1, 7.6, 12.2, 10.8, 1.0, 2.9, 14.4, 8.4))
 ```
 
 ### Demo: Use R to inspect data interactively
-
 
 ```{r demo3, exercise=TRUE}
 ## inspect data: try the different interface elements
@@ -146,7 +168,6 @@ ggplot(demo_data, aes(x = transcription)) +
 
 ```
 
-
 ```{r demo4-hint}
 ## try instead of geom_histogram: geom_dotplot, geom_boxplot
 ## for example
@@ -154,4 +175,3 @@ ggplot(demo_data, aes(x = transcription)) +
             geom_dotplot()
 
 ```
-
