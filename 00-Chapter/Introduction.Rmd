@@ -7,13 +7,151 @@ output:
         progressive: true
         allow_skip: true
         theme: cerulean
+        css: "css/style.css"
 runtime: shiny_prerendered
 ---
 
-```{r setup}
-# library(learnr)
+```{r setup, echo=F, message=F, warning=F, include=F}
+library(tidyverse)
+library(DT)
+library(learnr)
+library(itns)
+library(usethis)
+tutorial_options(exercise.cap = "Sandbox")
+demo_data <- pen_laptop2
 ```
 
-::: {.alert .alert-info role="alert"}
-<strong>Info:</strong> In *ITNS* there are many occasion where students are motivated to "pause, reflect, and discuss" the issues just explained and some question posed by the authors. This is meant to take notes by paper & pencil, so a digital version would only be a bad substitute. Especially as in the work of Mueller and Oppenheimer (2014) it turned out, that students on average remembered more after taking notes with pen than with laptop.
+## Supportive Pedagogy
+
+
+Under this heading, you will find in the book (p.XX) explanations of the different formatting items and their purpose. This website has other possibilities; therefore, we need to present the equivalents we have chosen.
+
+### Take-home messages
+
+As in the book, each chapter of the interactive tutorials starts with pointers to what it contains and closes with summary take-home messages. But this summary is an interactive exercise where you have to choose from different key messages. At the end of this selection process, you will get a list of the same take-home messages as presented in the book. Sometimes our invented wrong alternatives ("distractors") are silly, and it is clear which answer you have to choose. But even so, you have to read the different options carefully and make your decision. Selecting the correct answer is some engagement and better than just scan the text without a mindful decision.
+
+From a technical perspective, we will offer the H5P content type [Summary](https://h5p.org/summary). You will find the first example of the interactive realization of the take-home message at the end of this chapter.
+
+### Pause, reflect, and discuss
+
+Educational research shows that elaborating on learning material is an effective learning technique.  The book encourages on regular intervals critical thinking with questions suitable for reflection and discussion.
+
+With these tutorials, we offer [Cornell Notes](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/) as a tool to process and elaborate conveyed information. It supports learning with a three-part structure of note-taking: 
+
+1. Take notes from a lecture, book, audio, or video. But not in a mechanical descriptive way, but decide what is essential and choose your own wording.
+2. After you wrote this excerpt, look for cues and key points. Formulate problems, generate questions, and write them into another text field.
+3. Finally, in the third field, write down your learnings as a summary and try a conclusion. 
+
+Again we provide this learning tool via an H5P content type. There is no help file using it because this interactive exercise type is new and not yet officially released (April 2021). We have therefore provided an example and help page.
+
+### Key terms
+
+The book has vital terms set off from the text and defined in the glossary at the book's end. Here we use the advantages of an interactive online tutorial.
+
+You will find [Flash Cards exercises](https://routledgetextbooks.com/textbooks/9781138825529/student.php) at the book's website for the terms and expressions used in the book. In these tutorial files, we add three other types of activities:
+
++ **Glossary** realized with [H5P Accordion](https://h5p.org/accordion).
++ **Drag Text** realized with [H5P Drag the Words](https://h5p.org/drag-the-words).
++ **Fill Gap** realized with [H5P Fill in the Blanks](https://h5p.org/fill-in-the-blanks).
+
+These three types of exercises represent different levels of difficulty: Read, remember, recall.
+
+Additionally, we will experiment with [H5P Crossword](https://www.olivertacke.de/labs/2020/11/19/some-things-take-time-h5p-crossword/)^[This content type is new and yet not released officially.] and [H5P Memory Game](https://h5p.org/memory-game).
+
+### Exercises
+
+We have converted the book's review questions with the H5P Question Set into a collection of interactive exercises. Corresponding to the subject, we use appropriate question formats like Single and Multiple Choice, True and False Questions, and other – partly already mentioned – activity types.
+
+In the book, there are two types of exercises: In-Chapter-Exercises and End-of-Chapter-Exercises.
+
+#### In-Chapter-Exercises 
+
+The book uses primarily ESCI, a specially prepared Exploratory Software for Confidence Intervals. We complement this important educational device with practical tutorials to grasp the essentials of [R](https://www.r-project.org/), "a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and macOS." 
+
+Learning R to do statistics and data science is a trendy and valuable professional skill in the job market. We wrote this accompanying book to ITNS entirely in R, which shows its solid and powerful ecosystem. The In-Chapter-Exercises use `learnr` and `gradethis`, two R packages specialized tutoring data science and the R Language. So it is a kind of learning R through R.
+
+To give you a first impression of the tutorial environment, experiment with `learnr`, the R tutorial software we war using. Head over to the section [Sandbox Experiments].
+
+#### End-of-Chapter-Exercises
+
+We will explain with this guided tutorial all In-Chapter-Exercises and also give some guided exercises to try for yourself. So you will learn the basic structure of R and how to use it.
+
+The End-of-Chapter-Exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and datasets. 
+
+We recommend urgently that you should try to find the solution on your own. Only when you are exhausted and could not solve the problem, then consult our solution. Have a look at it, try to understand it, close our demonstration and try it yourself in your R installation.
+
+### Formatting
+
+For outline paragraphs that deserve special attention, we are using colored boxes with icons.
+
+
+::: {.infobox}
+<strong>Info:</strong> We use infoboxes as visual markers highlighting key issues and points. It makes it easier for readers to gain an overview and find critical points when reviewing for exams.
 :::
+
+::: {.warningbox}
+<strong>Warning:</strong> We use warning boxes whenever we explain important cautions that students always need to keep in mind, including troubles with the meaning of "significance" and what p values can and cannot tell us.
+:::
+
+
+::: {.stopbox}
+<strong>Stop:</strong> We use stop boxes to highlight common pitfalls or things to watch out for. We hope these will help students avoid making such errors.
+:::
+
+#### Typography
+
+Package names are in bold text (e.g., **rmarkdown**), and inline code and filenames are formatted in a typewriter font (e.g., `knitr::knit('foo.Rmd'))`. Function names are followed by parentheses (e.g., `bookdown::render_book())`. The double-colon operator :: means accessing an object from a package.
+
+## Sandbox Experiments
+
+### Demo: Use R as a calculator
+
+```{r demo1, exercise=TRUE}
+## use R as simple calculator: try also -,*,/
+1 + 1
+```
+
+
+### Demo: Use R functions for statistical calculation
+
+```{r demo2, exercise=TRUE}
+## use R functions for statistical computations
+## see also 'hint' to try other functions
+mean(c(12.1, 6.5, 8.1, 7.6, 12.2, 10.8, 1.0, 2.9, 14.4, 8.4))
+```
+
+
+```{r demo2-hint}
+## try instead of mean: median, min, max
+## for example
+median(c(12.1, 6.5, 8.1, 7.6, 12.2, 10.8, 1.0, 2.9, 14.4, 8.4))
+
+```
+
+### Demo: Use R to inspect data interactively
+
+
+```{r demo3, exercise=TRUE}
+## inspect data: try the different interface elements
+datatable(demo_data)
+```
+
+### Demo: Use R to visualize data
+
+```{r demo4, exercise=TRUE}
+## use R to visualize data
+## use 'hint' to change data presentation
+ggplot(demo_data, aes(x = transcription)) +
+            geom_histogram()
+
+```
+
+
+```{r demo4-hint}
+## try instead of geom_histogram: geom_dotplot, geom_boxplot
+## for example
+ggplot(demo_data, aes(x = transcription)) +
+            geom_dotplot()
+
+```
+
