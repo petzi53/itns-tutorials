@@ -21,4 +21,8 @@ We want to showcase breaking down theoretical notions into a massive amount of i
 
 ## Suggestions, critiques and bug reports are appreciated
 
-Our professional background is further education and educational technology; hence not statistics, data science, nor programming. Therefore we are pleased to receive critical feedback, suggestions, and bug reports. 
+Our professional background is further education and educational technology; hence not statistics, data science, nor programming. Therefore we are pleased to receive critical feedback, suggestions, and bug reports.
+
+## Work in Progress
+
+- [Preface](https://pbaumgartner.shinyapps.io/itns-00-preface/) (draft)

@@ -41,7 +41,7 @@ With these tutorials, we offer [Cornell Notes](https://lsc.cornell.edu/how-to-st
 2.  After you wrote this excerpt, look for cues and key points. Formulate problems, generate questions, and write them into another text field.
 3.  Finally, in the third field, write down your learnings as a summary and try a conclusion.
 
-Again we provide this learning tool via an H5P content type. There is no help file using it because this interactive exercise type is new and not yet officially released (April 2021). We have therefore provided an example and help page.
+Again we provide this learning tool via an H5P content type. Try it out and learn about Cornell Notes by taking [✏️Cornell Notes].
 
 ### Key terms
 
@@ -71,13 +71,13 @@ The book uses primarily ESCI, a specially prepared Exploratory Software for Conf
 
 Learning R to do statistics and data science is a trendy and valuable professional skill in the job market. We wrote this accompanying book to ITNS entirely in R, which shows its solid and powerful ecosystem. The in-text-exercises use `learnr` and `gradethis`, two R packages specialized tutoring data science and the R Language. So it is a kind of learning R through R.
 
-To give you a first impression of the tutorial environment, experiment with `learnr`, the R tutorial software we war using. Head over to the section [Sandbox Experiments].
+To give you a first impression of the tutorial environment, experiment with `learnr`, the R tutorial software we war using. Head over to the section [🆁Sandbox Experiments].
 
 #### End-of-Chapter-Exercises
 
 We will explain with this guided tutorial all in-text-exercises and also give some guided exercises to try for yourself. So you will learn the basic structure of R and how to use it.
 
-The end-of-chapter-exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and datasets.
+The end-of-chapter-exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and data sets.
 
 We recommend urgently that you should try to find the solution on your own. Only when you are exhausted and could not solve the problem, then consult our solution. Have a look at it, try to understand it, close our demonstration and try it yourself in your R installation.
 
@@ -98,6 +98,20 @@ For outline paragraphs that deserve special attention, we are using colored boxe
 :::
 
 #### Typography
+
+To facilitate your navigation around the tutorial, we have marked the section header:
+
+- 🧩 Exercise section: Contains puzzle, quiz, tests, etc.
+
+- ✏️ Rethink and reflect exercises
+
+- 🆁 Guided R tutorials (In-chapter-exercises and more)
+
+- 📊 Solutions (End-of-chapter-exercises)
+
+- 🌐 A collection of internet resources
+
+
 
 Package names are in bold text (e.g., **rmarkdown**), and inline code and filenames are formatted in a typewriter font (e.g., `knitr::knit('foo.Rmd'))`. Function names are followed by parentheses (e.g., `bookdown::render_book())`. The double-colon operator :: means accessing an object from a package.
 
@@ -127,7 +141,24 @@ You are welcome to use everything, but except for the flashcards exercises and t
 
 So for videos, data sets, and software is no need to worry. We will cover how to get and use these resources at the appropriate places in the tutorial.
 
-## Sandbox Experiments
+## 🧩Making the most of these tutorials
+
+The main reason for us to write these tutorials is to support your learning. We hope that the multitude of different exercises invites you to try them. It is not necessary to take them all, and you can certainly change our proposed order. The only sequence you should follow: Read first the corresponding part in the book because the exercises build on the book's content. They give you feedback, clarify things and practice your skill, but they are not the primary teaching material.  
+
+We wish that the exercises not only foster your learning but are also enjoyable. We aim to seduce you to stretch your involvement time with statistics and R. The exercises are therefore not graded, have no time constraint, and you can repeat them how often you like.
+
+### Learning techniques
+
+Before we are going to talk about learning strategies, try the following multiple-choice exercise.
+
+<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&id=339" width="960" height="615" frameborder="0" allowfullscreen="allowfullscreen" title="itns-00: Learning Techniques"></iframe><script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+### Multiple representation
+
+
+
+## 🆁Sandbox Experiments
 
 ### Demo: Use R as a calculator
 
@@ -175,3 +206,16 @@ ggplot(demo_data, aes(x = transcription)) +
             geom_dotplot()
 
 ```
+
+## ✏️Cornell Notes
+
+Learn what Cornell Notes are and how you can make use of it. 
+
+<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&id=340" width="960" height="771" frameborder="0" allowfullscreen="allowfullscreen" title="Learn about Cornell Notes using Cornell Notes"></iframe><script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+
+
+## 🌐More on Cornell Notes 
+
+If you are interested in this kind of note-taking system, here are some pointers to additional resources on the internet.
+
+<iframe class="wakeletEmbed" width="100%" height="760px" src="https://embed.wakelet.com/wakes/EpM_ssAgvCQ6YSH-JqMJv/list" style="border: none" allow="autoplay"></iframe><!-- Please only call https://embed-assets.wakelet.com/wakelet-embed.js once per page --><script src="https://embed-assets.wakelet.com/wakelet-embed.js" charset="UTF-8"></script>
