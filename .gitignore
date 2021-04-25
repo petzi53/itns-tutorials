@@ -3,7 +3,7 @@
 .RData
 .Ruserdata
 
-*chapter.html
+*.html
 *chapter_files/
 rsconnect/
 
