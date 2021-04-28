@@ -2,11 +2,20 @@
 title: "ITNS Chapter 00: Preface"
 author: "Peter Baumgartner"
 date: "`r Sys.Date()`"
+bibliography: "www/references.bib"
+link-citations: true
+editor_options:
+  markdown:
+    wrap: 72
+    references: 
+      location: block
+    canonical: true
+
 output: 
     learnr::tutorial:
         progressive: true
         allow_skip: true
-        theme: cerulean
+        theme: "cerulean"
         css: "css/style.css"
 runtime: shiny_prerendered
 ---
@@ -21,142 +30,312 @@ tutorial_options(exercise.cap = "Sandbox")
 demo_data <- pen_laptop2
 ```
 
+```{=html}
+<!-- <style type="text/css"> -->
+<!-- @import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"); -->
+<!-- </style> -->
+```
+## Welcome!
+
+[![Cover image of 'Introduction to the New Statistics' with overlaid
+text referencing to unofficial interactive tutorials accompanying the
+text
+book](images/cover-itns-unofficial-min.png "Cover image with overlaid text"){.float-right
+width="250"
+height="375"}](https://www.routledgetextbooks.com/textbooks/9781138825529/)
+
+These tutorials support and accompany your working with the textbook
+[Introduction to the New
+Statistics](https://www.routledgetextbooks.com/textbooks/9781138825529/)
+by Geoff Cumming and Robert Calin-Jageman or for short `itns`
+[@cumming_introduction_2017].
+
+Here in the preface, we will explain the structure and the different
+parts of the interactive website. Additionally, we will also expose you
+to some scientifically-based learning strategies.[^1]
+
+[^1]: Another Footnote
+
+## Learning Outcomes
+
+We will start every chapter with [Learning
+Outcomes](https://teaching.utoronto.ca/teaching-support/course-design/developing-learning-outcomes/what-are-learning-outcomes/)
+(LOs). In principle, LOs are just statements about what students should
+be able to do by the end of a learning module (lecture, course, chapter
+of a book, degree course, etc.). To accommodate the appropriate level,
+LOs have to be stated on different levels of abstraction. To evade
+losing overview and drowning in too many different skills, a limitation
+to three to five LOs is recommendable.
+
+The crux is to formulate LOs in a way that they can be verified. So they
+should use verbs for activities that can be observed. Instead of "can
+understand" or "knows," it is better to say "can explain" or "can give
+examples," etc.
+
+After completing this preliminary chapter successfully, you should be
+able ...
+
+-   to navigate effectively through the tutorials with their different
+    type of exercises
+-   taking (H5P Cornell) notes effectively to support sustainable
+    learning
+-   writing take-home messages (with the help of the provided H5P
+    Documentation Tool)
+
+At the end of all chapters, we provide a template to judge how well you
+have met these objectives.
+
 ## Supportive Pedagogy
 
-Under this heading, you will find in the book (p.XX) explanations of the different formatting items and their purpose. This website has other possibilities; therefore, we need to present the equivalents we have chosen.
+Under this heading, you will find in the book (p.XX) explanations of the
+different formatting items and their purpose. This website has other
+possibilities; therefore, we need to present the equivalents we have
+chosen.
 
 ### Take-home messages
 
-As in the book, each chapter of the interactive tutorials starts with pointers to what it contains and closes with summary take-home messages. But this summary is an interactive exercise where you have to choose from different key messages. At the end of this selection process, you will get a list of the same take-home messages as presented in the book. Sometimes our invented wrong alternatives ("distractors") are silly, and it is clear which answer you have to choose. But even so, you have to read the different options carefully and make your decision. Selecting the correct answer is some engagement and better than just scan the text without a mindful decision.
+As in the book, each chapter of the interactive tutorials starts with
+pointers to what it contains and closes with summary take-home messages.
+But this summary is an interactive exercise where you have to choose
+from different key messages. At the end of this selection process, you
+will get a list of the same take-home messages as presented in the book.
+Sometimes our invented wrong alternatives ("distractors") are silly, and
+it is clear which answer you have to choose. But even so, you have to
+read the different options carefully and make your decision. Selecting
+the correct answer is some engagement and better than just scan the text
+without a mindful decision.
 
-From a technical perspective, we will offer the H5P content type [Summary](https://h5p.org/summary). You will find the first example of the interactive realization of the take-home message at the end of this chapter.
+From a technical perspective, we will offer the H5P content type
+[Summary](https://h5p.org/summary). You will find the first example of
+the interactive realization of the take-home message at the end of this
+chapter.
 
 ### Pause, reflect, and discuss
 
-Educational research shows that elaborating on learning material is an effective learning technique. The book encourages on regular intervals critical thinking with questions suitable for reflection and discussion.
+Educational research shows that elaborating on learning material is an
+effective learning technique. The book encourages on regular intervals
+critical thinking with questions suitable for reflection and discussion.
 
-With these tutorials, we offer [Cornell Notes](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/) as a tool to process and elaborate conveyed information. It supports learning with a three-part structure of note-taking:
+With these tutorials, we offer [Cornell
+Notes](https://lsc.cornell.edu/how-to-study/taking-notes/cornell-note-taking-system/)
+as a tool to process and elaborate conveyed information. It supports
+learning with a three-part structure of note-taking:
 
-1.  Take notes from a lecture, book, audio, or video. But not in a mechanical descriptive way, but decide what is essential and choose your own wording.
-2.  After you wrote this excerpt, look for cues and key points. Formulate problems, generate questions, and write them into another text field.
-3.  Finally, in the third field, write down your learnings as a summary and try a conclusion.
+1.  Take notes from a lecture, book, audio, or video. But not in a
+    mechanical descriptive way, but decide what is essential and choose
+    your own wording.
+2.  After you wrote this excerpt, look for cues and key points.
+    Formulate problems, generate questions, and write them into another
+    text field.
+3.  Finally, in the third field, write down your learnings as a summary
+    and try a conclusion.
 
-Again we provide this learning tool via an H5P content type. Try it out and learn about Cornell Notes by taking [✏️Cornell Notes].
+Again we provide this learning tool via an H5P content type. Try it out
+and learn about Cornell Notes by taking [✏️Cornell Notes].
 
 ### Key terms
 
-The book has vital terms set off from the text and defined in the glossary at the book's end. Here we use the advantages of an interactive online tutorial.
+The book has vital terms set off from the text and defined in the
+glossary at the book's end. Here we use the advantages of an interactive
+online tutorial.
 
-You will find [Flash Cards exercises](https://routledgetextbooks.com/textbooks/9781138825529/student.php) at the book's website for the terms and expressions used in the book. In these tutorial files, we add three other types of activities:
+You will find [Flash Cards
+exercises](https://routledgetextbooks.com/textbooks/9781138825529/student.php)
+at the book's website for the terms and expressions used in the book. In
+these tutorial files, we add three other types of activities:
 
--   **Glossary** realized with [H5P Accordion](https://h5p.org/accordion).
--   **Drag Text** realized with [H5P Drag the Words](https://h5p.org/drag-the-words).
--   **Fill Gap** realized with [H5P Fill in the Blanks](https://h5p.org/fill-in-the-blanks).
+-   **Glossary** realized with [H5P
+    Accordion](https://h5p.org/accordion).
+-   **Drag Text** realized with [H5P Drag the
+    Words](https://h5p.org/drag-the-words).
+-   **Fill Gap** realized with [H5P Fill in the
+    Blanks](https://h5p.org/fill-in-the-blanks).
 
-These three types of exercises represent different levels of difficulty: Read, remember, recall.
+These three types of exercises represent different levels of difficulty:
+Read, remember, recall.
 
-Additionally, we will experiment with [H5P Crossword](https://www.olivertacke.de/labs/2020/11/19/some-things-take-time-h5p-crossword/)[^1] and [H5P Memory Game](https://h5p.org/memory-game).
+Additionally, we will experiment with [H5P
+Crossword](https://www.olivertacke.de/labs/2020/11/19/some-things-take-time-h5p-crossword/)[^2]
+and [H5P Memory Game](https://h5p.org/memory-game).
 
-[^1]: This content type is new and yet not released officially.
+[^2]: This content type is new and yet not released officially.
 
 ### Exercises
 
-We have converted the book's review questions with the H5P Question Set into a collection of interactive exercises. Corresponding to the subject, we use appropriate question formats like Single and Multiple Choice, True and False Questions, and other -- partly already mentioned -- activity types.
+We have converted the book's review questions with the H5P Question Set
+into a collection of interactive exercises. Corresponding to the
+subject, we use appropriate question formats like Single and Multiple
+Choice, True and False Questions, and other -- partly already mentioned
+-- activity types.
 
-In the book, there are two types of exercises: In-text-exercises and end-of-chapter-exercises.
+In the book, there are two types of exercises: In-text-exercises and
+end-of-chapter-exercises.
 
 #### In-Text-Exercises
 
-The book uses primarily ESCI, a specially prepared Exploratory Software for Confidence Intervals. We complement this important educational device with practical tutorials to grasp the essentials of [R](https://www.r-project.org/), "a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows and macOS."
+The book uses primarily ESCI, a specially prepared Exploratory Software
+for Confidence Intervals. We complement this important educational
+device with practical tutorials to grasp the essentials of
+[R](https://www.r-project.org/), "a free software environment for
+statistical computing and graphics. It compiles and runs on a wide
+variety of UNIX platforms, Windows and macOS."
 
-Learning R to do statistics and data science is a trendy and valuable professional skill in the job market. We wrote this accompanying book to ITNS entirely in R, which shows its solid and powerful ecosystem. The in-text-exercises use `learnr` and `gradethis`, two R packages specialized tutoring data science and the R Language. So it is a kind of learning R through R.
+Learning R to do statistics and data science is a trendy and valuable
+professional skill in the job market. We wrote this accompanying book to
+ITNS entirely in R, which shows its solid and powerful ecosystem. The
+in-text-exercises use `learnr` and `gradethis`, two R packages
+specialized tutoring data science and the R Language. So it is a kind of
+learning R through R.
 
-To give you a first impression of the tutorial environment, experiment with `learnr`, the R tutorial software we war using. Head over to the section [🆁Sandbox Experiments].
+To give you a first impression of the tutorial environment, experiment
+with `learnr`, the R tutorial software we war using. Head over to the
+section [🆁Sandbox Experiments].
 
 #### End-of-Chapter-Exercises
 
-We will explain with this guided tutorial all in-text-exercises and also give some guided exercises to try for yourself. So you will learn the basic structure of R and how to use it.
+We will explain with this guided tutorial all in-text-exercises and also
+give some guided exercises to try for yourself. So you will learn the
+basic structure of R and how to use it.
 
-The end-of-chapter-exercises will go even one step farther. We invite you to practice R inside a modern IDE (Integrated Development Environment). For this real-world experience, you have to install R and RStudio, to install and load necessary packages and data sets.
+The end-of-chapter-exercises will go even one step farther. We invite
+you to practice R inside a modern IDE (Integrated Development
+Environment). For this real-world experience, you have to install R and
+RStudio, to install and load necessary packages and data sets.
 
-We recommend urgently that you should try to find the solution on your own. Only when you are exhausted and could not solve the problem, then consult our solution. Have a look at it, try to understand it, close our demonstration and try it yourself in your R installation.
+We recommend urgently that you should try to find the solution on your
+own. Only when you are exhausted and could not solve the problem, then
+consult our solution. Have a look at it, try to understand it, close our
+demonstration and try it yourself in your R installation.
 
 ### Formatting
 
-For outline paragraphs that deserve special attention, we are using colored boxes with icons.
+For outline paragraphs that deserve special attention, we are using
+colored boxes with icons.
 
 ::: {.infobox}
-<strong>Info:</strong> We use infoboxes as visual markers highlighting key issues and points. It makes it easier for readers to gain an overview and find critical points when reviewing for exams.
+<strong>Info:</strong> We use infoboxes as visual markers highlighting
+key issues and points. It makes it easier for readers to gain an
+overview and find critical points when reviewing for exams.
 :::
 
 ::: {.warningbox}
-<strong>Warning:</strong> We use warning boxes whenever we explain important cautions that students always need to keep in mind, including troubles with the meaning of "significance" and what p values can and cannot tell us.
+<strong>Warning:</strong> We use warning boxes whenever we explain
+important cautions that students always need to keep in mind, including
+troubles with the meaning of "significance" and what p values can and
+cannot tell us.
 :::
 
 ::: {.stopbox}
-<strong>Stop:</strong> We use stop boxes to highlight common pitfalls or things to watch out for. We hope these will help students avoid making such errors.
+<strong>Stop:</strong> We use stop boxes to highlight common pitfalls or
+things to watch out for. We hope these will help students avoid making
+such errors.
 :::
 
 #### Typography
 
-To facilitate your navigation around the tutorial, we have marked the section header:
+To facilitate your navigation around the tutorial, we have marked the
+section header:
 
-- 🧩 Exercise section: Contains puzzle, quiz, tests, etc.
+-   🧩 Exercise section: Contains puzzle, quiz, tests, etc.
 
-- ✏️ Rethink and reflect exercises
+-   ✏️ Rethink and reflect exercises
 
-- 🆁 Guided R tutorials (In-chapter-exercises and more)
+-   🆁 Guided R tutorials (In-chapter-exercises and more)
 
-- 📊 Solutions (End-of-chapter-exercises)
+-   📊 Solutions (End-of-chapter-exercises)
 
-- 🌐 A collection of internet resources
+-   🌐 A collection of internet resources
 
-
-
-Package names are in bold text (e.g., **rmarkdown**), and inline code and filenames are formatted in a typewriter font (e.g., `knitr::knit('foo.Rmd'))`. Function names are followed by parentheses (e.g., `bookdown::render_book())`. The double-colon operator :: means accessing an object from a package.
+Package names are in bold text (e.g., **rmarkdown**), and inline code
+and filenames are formatted in a typewriter font (e.g.,
+`knitr::knit('foo.Rmd'))`. Function names are followed by parentheses
+(e.g., `bookdown::render_book())`. The double-colon operator :: means
+accessing an object from a package.
 
 ## Additional Resources
 
-On the [book's website](https://routledgetextbooks.com/textbooks/9781138825529/), you will find [resources for students](https://routledgetextbooks.com/textbooks/9781138825529/student.php). It includes:
+On the [book's
+website](https://routledgetextbooks.com/textbooks/9781138825529/), you
+will find [resources for
+students](https://routledgetextbooks.com/textbooks/9781138825529/student.php).
+It includes:
 
 -   Flashcards exercises
-
 -   Videos
-
 -   Data sets for in-text-exercises
-
 -   Data sets for end-of-chapter-exercises
-
 -   ESCI download
-
 -   Software Guide
 
-You are welcome to use everything, but except for the flashcards exercises and the ESCI software, this tutorial will use these resources in a particular way:
+You are welcome to use everything, but except for the flashcards
+exercises and the ESCI software, this tutorial will use these resources
+in a particular way:
 
--   **Video**: We have added to the videos interactivity: Questions, Quizzes, etc.
+-   **Video**: We have added to the videos interactivity: Questions,
+    Quizzes, etc.
 
--   **Data sets**: They are included in the R package `itns`. In the tutorial, you will learn how to get this package and use the data files.
+-   **Data sets**: They are included in the R package `itns`. In the
+    tutorial, you will learn how to get this package and use the data
+    files.
 
--   **Software Guide**: Our tutorial will explain how to install and use the software.
+-   **Software Guide**: Our tutorial will explain how to install and use
+    the software.
 
-So for videos, data sets, and software is no need to worry. We will cover how to get and use these resources at the appropriate places in the tutorial.
+So for videos, data sets, and software is no need to worry. We will
+cover how to get and use these resources at the appropriate places in
+the tutorial.
 
 ## 🧩Making the most of these tutorials
 
-The main reason for us to write these tutorials is to support your learning. We hope that the multitude of different exercises invites you to try them. It is not necessary to take them all, and you can certainly change our proposed order. The only sequence you should follow: Read first the corresponding part in the book because the exercises build on the book's content. They give you feedback, clarify things and practice your skill, but they are not the primary teaching material.  
+The main reason for us to write these tutorials is to support your
+learning. We hope that the multitude of different exercises invites you
+to try them. It is not necessary to take them all, and you can certainly
+change our proposed order. The only sequence you should follow: Read
+first the corresponding part in the book because the exercises build on
+the book's content. They give you feedback, clarify things and practice
+your skill, but they are not the primary teaching material.
 
-We wish that the exercises not only foster your learning but are also enjoyable. We aim to seduce you to stretch your involvement time with statistics and R. The exercises are therefore not graded, have no time constraint, and you can repeat them how often you like.
+We wish that the exercises not only foster your learning but are also
+enjoyable. We aim to seduce you to stretch your involvement time with
+statistics and R. The exercises are therefore not graded, have no time
+constraint, and you can repeat them how often you like.
 
 ### Learning techniques
 
-Before we are going to talk about learning strategies, try the following multiple-choice exercise.
+Before we are going to talk about learning strategies, try the following
+multiple-choice exercise.
 
-<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&id=339" width="960" height="615" frameborder="0" allowfullscreen="allowfullscreen" title="itns-00: Learning Techniques"></iframe><script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=339" width="960" height="615" frameborder="0" allowfullscreen="allowfullscreen" title="itns-00: Learning Techniques">
 
+</iframe>
+
+```{=html}
+<script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+```
+So the gist of this exercise is a well established difference in our
+brain: To repeat and recall is less effective than retrieve and
+reproduce. Understanding is much more than just memorizing. You need to
+link new facts or concepts with already established notions so that they
+are sustainable anchored in your neuron network.
 
 ### Multiple representation
 
+To internalize and grasp new terms and ideas it is necessary to vary the
+context of thought and perception. Cognitive science has proofed that
+multiple representation is especially well suited for complex scientific
+concepts:[^3]
 
+[^3]: Fußnote
+
+> When people are learning complicated scientific concepts, interacting
+> with multiple forms of representation such as diagrams, graphs and
+> equations can bring unique benefits. [@ainsworth_educational_2008]
+
+We will foster you understanding by presenting the same content varied
+in different forms, as text, graphics and video. It's not just that we
+expose you passively to the material but we call for your active
+engagement with the content by posing puzzles and challenges.
+[@ainsworth_functions_1999]
 
 ## 🆁Sandbox Experiments
 
@@ -209,13 +388,29 @@ ggplot(demo_data, aes(x = transcription)) +
 
 ## ✏️Cornell Notes
 
-Learn what Cornell Notes are and how you can make use of it. 
+Learn what Cornell Notes are and how you can make use of it.
 
-<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&id=340" width="960" height="771" frameborder="0" allowfullscreen="allowfullscreen" title="Learn about Cornell Notes using Cornell Notes"></iframe><script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://peter.baumgartner.name/wp-admin/admin-ajax.php?action=h5p_embed&amp;id=340" width="960" height="771" frameborder="0" allowfullscreen="allowfullscreen" title="Learn about Cornell Notes using Cornell Notes">
 
+</iframe>
 
-## 🌐More on Cornell Notes 
+```{=html}
+<script src="https://peter.baumgartner.name/wp-content/plugins/h5p/h5p-php-library/js/h5p-resizer.js" charset="UTF-8"></script>
+```
+## 🌐More on Cornell Notes
 
-If you are interested in this kind of note-taking system, here are some pointers to additional resources on the internet.
+If you are interested in this kind of note-taking system, here are some
+pointers to additional resources on the internet.
 
-<iframe class="wakeletEmbed" width="100%" height="760px" src="https://embed.wakelet.com/wakes/EpM_ssAgvCQ6YSH-JqMJv/list" style="border: none" allow="autoplay"></iframe><!-- Please only call https://embed-assets.wakelet.com/wakelet-embed.js once per page --><script src="https://embed-assets.wakelet.com/wakelet-embed.js" charset="UTF-8"></script>
+<iframe class="wakeletEmbed" width="100%" height="760px" src="https://embed.wakelet.com/wakes/EpM_ssAgvCQ6YSH-JqMJv/list" style="border: none" allow="autoplay">
+
+</iframe>
+
+<!-- Please only call https://embed-assets.wakelet.com/wakelet-embed.js once per page -->
+
+```{=html}
+<script src="https://embed-assets.wakelet.com/wakelet-embed.js" charset="UTF-8"></script>
+```
+## References
+
+[@anderson2002]

@@ -1,6 +1,14 @@
 
 /*   background-image: url("../images/caution.png"); */
 
+/* using Bootstrap 4 has smaller font-size: 1rem,
+   Bootstrap 3 has 14px
+body {
+  font-size: 1.4rem !important;
+}
+*/
+
+
 :root {
   --primary:        #027BFF;
   --secondary:      #6C757D;
@@ -57,10 +65,21 @@
 }
 
 
-.right {
+.float-right {
     float: right;
     width: 25%;
+    height: 25%;
+}
+
+.float-left {
+    float: left;
+    width: 25%;
+    height: 25%;
+}
+
+div.hanging-indent {
+text-indent: -28px;
+padding-left: 28px;
 }
 
 
-.
